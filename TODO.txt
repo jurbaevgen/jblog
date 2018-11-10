@@ -1,0 +1,30 @@
+Blog about your learning web programming
+
+body of your blog is:
+ - title of your blog h1 align center
+ - left side navigation
+ - nav items is :
+  - blog
+  - about me
+  - contact me
+
+- blog item contains
+ - title of blog item
+ - date 
+ - body
+ 
+- about me contains
+ - your bio
+ - your skils
+ 
+- contact me contains
+  - form
+   - Ваше имя
+   - Ваша почта
+   - Ваше сообщение
+  - links to your social network pages fb, linkedin, telegram
+  
+page bg #eee
+font base color #222
+color of date of blog item #444
+
