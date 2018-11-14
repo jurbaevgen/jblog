@@ -17,40 +17,70 @@
         
         <div class="content">
             <ul class="navigation">
-                <li class="active">
-                    <a href="index.html">Блог</a>
+                <li class="blog">
+                    <a onclick="navigation.go('blogPage')">Блог</a>
                 </li>
-                <li>
-                    <a href="aboutMe.html">Обо мне</a>
+                <li class="aboutMe">
+                    <a onclick="navigation.go('aboutPage')">Обо мне</a>
                 </li>
-                <li>
-                    <a href="contactMe.html">Контакты</a>
+                <li class="contactMe">
+                    <a onclick="navigation.go('contactPage')">Контакты</a>
                 </li>
             </ul>
             
-            <div>
-                <div class="panel">
-                    <h2> Улучшаю Блог </h2>
-                    <span class="date">11.11.2018 01:16 </span>
-                    <p>Осваиваю новые стили, учимся разнообразию "палитры"!</p>
+            <div class="blog">
+                <div class="panel template">
+                    <h2>title</h2>
+                    <span class="date">date</span>
+                    <p>description</p>
                 </div>
-                
+            </div>
+            
+            <div class="aboutMe">
                 <div class="panel">
-                    <h2> Познаем CSS </h2>
-                    <span class="date">10.11.2018 02:49 </span>
-                    <p>Изучил и закрепил Селекторы!</p>
-                </div>
+                    <h2 aling="center"> Напиши мне </h2>
+                    <form>
 
-                <div class="panel">
-                    <h2> Я цветомогуч </h2>
-                    <span class="date">06.11.2018 14:30 </span>
-                    <p> С первым проэктом меня!!!</p>
-                </div>
+                        <div>
+                            <label>Ваше имя</label>
+                            <input type="text" name="name" placeholder="Ваше имя" />
+                        </div>
+                        <div>
+                            <label>Ваша почта</label>
+                            <input type="text" name="name" placeholder="Ваша почта" />
+                        </div>
 
+                        <div>
+                            <label>Ваше сообщение</label>
+                            <textarea placeholder="Ваше сообщение" rows="10" cols="50"></textarea>
+                        </div>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
                 <div class="panel">
-                    <h2> Начало положено </h2>
-                    <span class="date">06.11.2018 </span>
-                    <p> Учим основу</p>
+                    <h2 aling="center"> Я в соц. сетях </h2>
+                    <ul>
+                        <li><a href="">Telegram</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">LinkeIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="contactMe">
+                <div class="panel">
+                    <h2> Биография </h2>
+                    <p> Живу в Даре</p>
+                </div>
+                <div class="panel">
+                    <h2> Умения </h2>
+                    <ul class="numeric">
+                        <li>Читаю</li>
+                        <li>Пишу с кем то</li>
+                        <li>Перевожу со словарем</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
                 </div>
             </div>
         </div>

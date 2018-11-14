@@ -6,6 +6,7 @@ body {
 }
 a {
     color: rgb(239,97,49);
+    cursor: pointer;
 }
 
 a:hover {
@@ -148,4 +149,9 @@ ul {
 .panel > ul.numeric {
     list-style: decimal;
     padding-left: 20px;
+}
+
+
+.template {
+    display: none;
 }
