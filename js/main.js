@@ -72,7 +72,7 @@ $( document ).ready( function() {
 
                 blogItem.find('h2').text(blogItemData.title);
                 blogItem.find('.date').text(blogItemData.date);
-                blogItem.find('p').text(blogItemData.description);
+                blogItem.find('p').html(blogItemData.description);
 
                 blogItem.removeClass('template');
 
